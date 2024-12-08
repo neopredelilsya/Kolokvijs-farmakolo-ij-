@@ -1,28 +1,33 @@
-/* Pamata fontu uzstādījumi, kas atgādina RSU dizainu */
+/* Vispārējie iestatījumi */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f7fb; /* Gaiša pelēkā fona krāsa */
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start; /* Nodrošina, ka visi elementi būs augšpusē */
+    align-items: flex-start; /* Nodrošina, ka visi elementi būs virsotnē */
     min-height: 100vh;
+    flex-direction: column; /* Uzstādām izkārtojumu vertikāli */
+    width: 100%; /* Nodrošina, ka platums aizpilda visu ekrānu */
 }
 
+/* Container - tests */
 .container {
     background-color: white;
     border-radius: 10px;
     padding: 40px 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 85%;
+    width: 100%;
     max-width: 700px;
     font-size: 1.1em;
+    margin: 0 auto; /* Horizontālā centrēšana */
+    margin-bottom: 40px; /* Atstāj vietu rekvizītiem apakšā */
 }
 
 h1 {
     text-align: center;
-    color: #D22B2B; /* RSU sarkans */
+    color: #D22B2B;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -94,4 +99,41 @@ h1 {
 
 .shuffle-button:hover {
     background-color: #b81f1f; /* Tumšāks sarkans */
+}
+
+/* Rekvizītu sadaļa (tagad tā ir apakšā) */
+.contact-info {
+    background-color: #f8f8f8; /* Gaiši pelēks fons */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 1px auto 0; /* Centrēts horizontāli un ar atstarpi no augšas */
+}
+
+.contact-info h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Tumši pelēks tekstam */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #333; /* Tumši pelēks */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
