@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f7fb; /* Gaiša pelēkā fona krāsa */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,47 +12,40 @@ body {
 .container {
     background-color: white;
     border-radius: 10px;
-    padding: 40px 50px;
+    padding: 20px 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 85%;
-    max-width: 700px;
-    font-size: 1.1em;
+    width: 80%;
+    max-width: 600px;
 }
 
 h1 {
     text-align: center;
-    color: #D22B2B; /* RSU sarkans */
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #333;
 }
 
 .question {
     margin-bottom: 20px;
     font-size: 1.2em;
-    color: #333; /* Tumši pelēka krāsa tekstam */
-    font-weight: 600;
+    color: #555;
 }
 
 .answers {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 .answer {
-    margin: 10px 0;
-    padding: 12px 18px;
-    border-radius: 6px;
-    background-color: #f7f9fc;
-    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f4f4f9;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 1.1em;
+    border: 1px solid #ccc;
 }
 
 .answer:hover {
-    background-color: #e1e8f2;
-    border-color: #b8c7e0;
+    background-color: #e0e0f0;
 }
 
 .answer.correct {
@@ -80,51 +73,17 @@ h1 {
 
 .shuffle-button {
     display: block;
-    margin: 30px auto;
-    padding: 12px 20px;
-    background-color: #D22B2B; /* RSU sarkans */
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .shuffle-button:hover {
-    background-color: #b81f1f; /* Tumšāks sarkans */
-}
-
-/* Rekvizīti sadaļa */
-.contact-info {
-    background-color: #f8f8f8; /* Gaiši pelēks fons */
-    padding: 20px;
-    margin-top: 40px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.contact-info h2 {
-    font-family: 'Arial', sans-serif;
-    color: #D22B2B; /* Tumši sarkans */
-    font-size: 1.8em;
-    margin-bottom: 20px;
-}
-
-.contact-info p {
-    font-family: 'Verdana', sans-serif;
-    color: #333;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.contact-info a {
-    color: #D22B2B;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
+    background-color: #0056b3;
 }
