@@ -100,3 +100,40 @@ h1 {
 .shuffle-button:hover {
     background-color: #b81f1f; /* Tumšāks sarkans */
 }
+
+/* Rekvizītu sadaļa (tagad tā ir apakšā) */
+.contact-info {
+    background-color: #f8f8f8; /* Gaiši pelēks fons */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 1px auto 0; /* Centrēts horizontāli un ar atstarpi no augšas */
+}
+
+.contact-info h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Tumši pelēks tekstam */
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #333; /* Tumši pelēks */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
