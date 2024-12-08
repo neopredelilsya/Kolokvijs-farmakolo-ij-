@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     padding: 40px 50px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 85%;
     max-width: 700px;
     font-size: 1.1em;
     margin: 0 auto; /* Horizontālā centrēšana */
@@ -109,7 +109,7 @@ h1 {
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 100%;
+    width: 85%;
     max-width: 760px;
     margin: 1px auto 0; /* Centrēts horizontāli un ar atstarpi no augšas */
 }
