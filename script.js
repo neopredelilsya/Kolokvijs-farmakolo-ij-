@@ -370,7 +370,7 @@ const questions = [
         correctIndex: 2
     },
     {
-        question: "Kuras zāles tiek lietotas miokarda infarkta sekundārai profilaksei kombinācijā ar klopidogrelu?",
+        question: "Kuras zāles tiek lietotas miokarda infarkta sekundārai profilaksei duālā terapijā ar klopidogrelu?",
         answers: ["Tikagrelors", "Varfarīns", "Aspirīns", "Amiodarons"],
         correctIndex: 2
     }
